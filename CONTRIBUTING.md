@@ -225,7 +225,7 @@ After you have ensured this site is distributing its content legally, you can fo
         _VALID_URL = r'https?://(?:www\.)?yourextractor\.com/watch/(?P<id>[0-9]+)'
         _TESTS = [{
             'url': 'https://yourextractor.com/watch/42',
-            'md5': 'TODO: md5 sum of the first 10241 bytes of the video file (use --test)',
+            'md5': 'TODO: md5 sum of the first 10241 bytes of the video file (use `yt-dlp/yt-dlp.sh <url> -k --test && md5sum /path/to/video`)',
             'info_dict': {
                 # For videos, only the 'id' and 'ext' fields are required to RUN the test:
                 'id': '42',
